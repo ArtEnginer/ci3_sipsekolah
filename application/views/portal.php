@@ -27,7 +27,7 @@
 <body>
 
 	<!-- Home -->
-<body style="background-image:url(asset/images/icon/bg-header.jpg);background-size:cover;">
+<body>
     <div class="page-wrapper">
         <div class="page-content--bge5">
             <div class="container">
