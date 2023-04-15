@@ -3,7 +3,7 @@
     <div class="col-md-12">
       <div class="box box-info box-solid" style="border: 1px solid #2ABB9B !important;">
         <div class="box-header backg with-border">
-          <h3 class="box-title">Cek Data Pembayaran Santri</h3>
+          <h3 class="box-title">Cek Data Pembayaran Siswa</h3>
         </div><!-- /.box-header -->
         <div class="box-body">
           <?php echo form_open(current_url(), array('class' => 'form-horizontal', 'method' => 'get')) ?>
@@ -17,13 +17,13 @@
                 <?php endforeach; ?>
               </select>
             </div>
-            <label for="" class="col-sm-2 control-label">Cari Santri</label>
+            <label for="" class="col-sm-2 control-label">Cari Siswa</label>
             <div class="col-sm-2">
               <input type="text" autofocus name="r" <?php echo (isset($f['r'])) ? 'placeholder="'.$f['r'].'"' : 'placeholder="NIS Siswa"' ?> class="form-control" required>
             </div>
 
             <div class="col-sm-4">
-              <button type="submit" class="btn btn-success"><i class="fa fa-search"> </i> Cari santri</button>
+              <button type="submit" class="btn btn-success"><i class="fa fa-search"> </i> Cari Siswa</button>
             </div>
           </div>
         </form>
@@ -35,7 +35,7 @@
       <div class="col-md-6">
         <div class="box box-info box-solid" style="border: 1px solid #2ABB9B !important;">
           <div class="box-header backg with-border">
-            <h3 class="box-title">Informasi Santri</h3>
+            <h3 class="box-title">Informasi Siswa</h3>
           </div><!-- /.box-header -->
           <div class="box-body">
             <table class="table table-striped">
@@ -56,7 +56,7 @@
                     <?php endforeach; ?>
                   </tr>
                   <tr>
-                    <td>Nama Santri</td>
+                    <td>Nama Siswa</td>
                     <td>:</td>
                     <?php foreach ($siswa as $row): ?>
                       <?php echo (isset($f['n']) AND $f['r'] == $row['student_nis']) ? 

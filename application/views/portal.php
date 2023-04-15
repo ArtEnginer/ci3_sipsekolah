@@ -54,7 +54,7 @@
 					<div class="box">
 						<i class="fa fa-credit-card icon-menu"></i>
 						<br>
-						Cek Pembayaran Satri
+						Cek Pembayaran Siswa
 					</div>
 				</a>
 				</div>
